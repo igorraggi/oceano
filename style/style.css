@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&family=Poppins:ital,wght@0,400;0,700;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    height: 250vh;
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex img {
+    height: 30px;
+    width: 30px;
+    color: #fff;
+}
+
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 40px;
+
+}
+
+.banner {
+
+    margin-top: 140px;
+    height: 100vh;
+
+}
+
+#header {
+    position: relative;
+}
+
+#header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.btn-oceanos button{
+    height: 40px;
+    width: 68px;
+    background-color: lightblue;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a2a2a2;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner h1 span {
+    color: lightblue;
+    margin: 6px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.banner p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.depoimentos {
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+.pessoas img {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+}
+
+.depoimentos i {
+    font-size: 90px;
+    color: #a2a2a2;
+}
+
+.depoimentos p.text-depoimento {
+    font-weight: 300px;
+    margin-bottom: 40px;
+}
+
+.pessoas {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nomes {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.emprego {
+    font-size: 14px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .depoimentos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    position: relative;
+}
+
+.container {
+    width: 100%;
+}
+
+.pessoas img {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+}
+
+.depoimentos i {
+    font-size: 90px;
+    color: #a2a2a2;
+}
+
+.depoimentos p.text-depoimento {
+    font-weight: 300;
+    margin-bottom: 20px; /* Ajuste a margem conforme necessário */
+    text-align: center; /* Centraliza o texto do depoimento */
+}
+
+.pessoas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nomes {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.emprego {
+    font-size: 14px;
+}
+
+
+.swiper {
+    width: 1200px;
+    height: 200px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.imagemcard {
+    background-image: url(/img/corais.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardstodos {
+    padding: 15px;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.cards img {
+    height: 400px;
+    width: 100%;
+    top: 0;
+    margin-top: 120px;
+    border-radius: 40%;
+}
+
+.cards2 .text-card {
+    font-size: 21px;
+    width: 270px;
+}
+
+h2, p, h1  {
+    animation: appear 1s ease-in-out;
+  }
+  
+  @keyframes appear {
+    from {
+      opacity: 0;
+      transform: translate(-100vw, 0);
+    }
+    
+    to {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+
+  img {
+    animation: reveal 1s ease-in-out both;
+  }
+  
+  .c-indicator {
+    animation: scroll 1s ease-in-out;
+    background-color: tomato;
+    transform-origin: left;
+    height: var(--scroll-height);
+    inset: 0;
+    position: fixed;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: scale(0, 1);
+    }
+    
+    to {
+      transform: scale(1, 1);
+    }
+  }
+  
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      clip-path: inset(100%);
+    }
+  
+    to {
+      opacity: 1;
+      clip-path: inset(0%); 
+    }
+  }

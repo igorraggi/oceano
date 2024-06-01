@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia Mundial dos Oceanos</title>
+    <link rel="stylesheet" href="/style/infos.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <video src="/img/por do sol.mp4" muted autoplay loop></video>
+        <div class="container">
+            <div class="flex">
+                <a href="../index.html"><img src="/img/sea.png" alt="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="infos.html">Informações</a></li>
+                        <li><a href="news.html">Noticias</a></li>
+                    </ul>
+                </nav>
+                <div class="btn-oceanos">
+                    <a href="oceanos.html"><button>Oceanos</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <h1>OCEANOS<SPAN> DO MUNDO </SPAN></h1>
+        <p>Os oceanos do mundo são vastas extensões de água que cobrem cerca de 71% da superfície da Terra</p>
+        <p>Eles desempenham um papel fundamental na regulação do clima, fornecimento de alimentos, transporte, comércio
+            e até mesmo na inspiração artística e cultural.</p>
+    </section>
+
+    <main>
+        <section>
+            <h2>Estatísticas e Dados</h2>
+            <h3>Poluição Plástica ao Longo dos Anos</h3>
+            <canvas id="plasticPollutionChart"></canvas>
+            <h3>Tamanho dos Oceanos</h3>
+            <canvas id="marineProtectedAreasChart"></canvas>
+        </section>
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
